@@ -1,0 +1,98 @@
+*{font-family: sans-serif;}
+body{
+  margin:0px;
+  padding: 0px;
+}
+.dashbord_main_div{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+header
+  {
+  position: absolute;
+  background-color: #3f51d5;
+  width: 100%;
+  height: 95px;
+}
+.main_logo{
+  position:absolute;
+	top:15px;
+	left:50%;
+	margin-left: -900px;
+	/*border: solid;*/
+	font-size:50px;
+	color:white;
+	cursor: pointer;}
+.currentdate{
+  position: absolute;
+  font-size: 25px;
+  color: white;
+}
+#call_number{
+  position: absolute;
+  color: white;
+  left: 50%;
+  top:30px;
+  margin-left: -350px;
+  font-size: 23px;
+}
+#extension_number{
+  position: absolute;
+  color: white;
+  left: 50%;
+  top:30px;
+  margin-left: -00px;
+  font-size: 23px;
+}
+#curdate{
+  position: absolute;
+  top:55px;
+  width: 200px;
+  left:50%;
+  margin-left: 565px;
+  font-size: 22px;
+  color: white;
+  /*height: 50px;*/
+  /*background-color: red;*/
+}
+.time_text{
+  position: absolute;
+  width: 120px;
+  border: none;
+  outline: none;
+  color: white;
+  left: 50%;
+  margin-left: 565px;
+  background-color: #2196F3;
+  /*background-color: red;*/
+  top: -10px;
+  font-size: 23px;
+}
+#timer{
+  position: absolute;
+  width: 140px;
+  border: none;
+  outline: none;
+  color: white;
+  left: 50%;
+  margin-left: 640px;
+  background-color: #2196F3;
+  /*background-color: red;*/
+  top: 15px;
+  font-size: 23px;
+}
+
+/*#logoutimg{
+  position: absolute;
+  height: 40px;
+  width: 45px;
+  background-image: url("../images/logout1.png");
+  background-size: 100% 100%;
+  background-color: blue;
+  left: 5px;
+  top: 0px;
+}
+#logoutimg:hover{
+  background-image: url("../images/logoutblue.png");
+}*/
